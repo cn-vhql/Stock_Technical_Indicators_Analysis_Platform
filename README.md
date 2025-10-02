@@ -7,13 +7,11 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-Latest-red.svg)
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)
 
-[![Stars](https://img.shields.io/github/stars/yourusername/stock-technical-indicators-platform.svg?style=social&label=Star)](https://github.com/yourusername/stock-technical-indicators-platform)
-[![Forks](https://img.shields.io/github/forks/yourusername/stock-technical-indicators-platform.svg?style=social&label=Fork)](https://github.com/yourusername/stock-technical-indicators-platform)
-[![Issues](https://img.shields.io/github/issues/yourusername/stock-technical-indicators-platform.svg)](https://github.com/yourusername/stock-technical-indicators-platform/issues)
+[![Stars](https://img.shields.io/github/stars/cn-vhql/stock-technical-indicators-platform.svg?style=social&label=Star)](https://github.com/cn-vhql/stock-technical-indicators-platform)
+[![Forks](https://img.shields.io/github/forks/cn-vhql/stock-technical-indicators-platform.svg?style=social&label=Fork)](https://github.com/cn-vhql/stock-technical-indicators-platform)
+[![Issues](https://img.shields.io/github/issues/cn-vhql/stock-technical-indicators-platform.svg)](https://github.com/cn-vhql/stock-technical-indicators-platform/issues)
 
 一个功能强大、界面美观的**交互式股票技术指标回测分析平台**，基于Python构建，使用Streamlit提供Web界面，支持多种技术指标计算、条件配置和回测分析。
-
-[立即体验](#快速开始) • [查看演示](#功能演示) • [阅读文档](#详细文档) • [参与贡献](#贡献指南)
 
 </div>
 
@@ -69,7 +67,7 @@
 
 ```bash
 # 克隆项目
-git clone https://github.com/yourusername/stock-technical-indicators-platform.git
+git clone https://github.com/cn-vhql/stock-technical-indicators-platform.git
 cd stock-technical-indicators-platform
 
 # 安装依赖
@@ -81,15 +79,6 @@ streamlit run app.py
 
 应用将在浏览器中自动打开：**http://localhost:8501**
 
-### Docker部署
-
-```bash
-# 构建镜像
-docker build -t stock-analysis-platform .
-
-# 运行容器
-docker run -p 8501:8501 stock-analysis-platform
-```
 
 ## 📖 详细文档
 
@@ -261,7 +250,7 @@ the Free Software Foundation, either version 3 of the License, or
 - [Plotly](https://plotly.com/) - 交互式图表
 - [Pandas](https://pandas.pydata.org/) - 数据处理
 
-## 📞 联系我们
+## 📞 联系作者
 
 - 📧 **邮箱**：yl_zhangqiang@foxmail.com
 - 🐛 **Issues**：[GitHub Issues](https://github.com/cn-vhql/stock-technical-indicators-platform/issues)
