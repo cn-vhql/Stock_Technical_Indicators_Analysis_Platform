@@ -20,7 +20,7 @@
 ## ✨ 项目特色
 
 - 🎯 **专业级回测分析**：支持多指标组合策略的精确回测
-- 📊 **丰富的技术指标**：内置11种主流技术指标，支持参数自定义
+- 📊 **丰富的技术指标**：基于talib库内置多种主流技术指标，支持参数自定义
 - 🎨 **现代化界面**：基于Streamlit的响应式Web界面，美观易用
 - ⚡ **高性能处理**：智能缓存机制，支持大规模数据分析
 - 🔧 **高度可扩展**：模块化设计，易于添加自定义指标和策略
@@ -32,7 +32,7 @@
 - **多市场支持**：A股、期货等市场数据
 - **智能缓存**：自动缓存机制，提高查询效率
 - **灵活配置**：支持日线、周线、月线，前复权、后复权等
-- **实时更新**：基于akshare库获取最新市场数据
+- **实时更新**：基于akshare库获取市场数据
 
 ### 📈 技术指标计算
 - **趋势指标**：SMA、EMA、MACD、布林带
@@ -130,7 +130,6 @@ docker run -p 8501:8501 stock-analysis-platform
 #### 风险控制参数
 - 持有期：1-60天可调
 - 止损条件：可自定义
-- 仓位管理：支持回测仓位模拟
 
 ## 🏗️ 技术架构
 
@@ -165,6 +164,12 @@ stock-technical-indicators-platform/
 - 📊 分类副图展示不同类型指标
 - 🎯 信号点标记和说明
 - 📋 回测结果统计面板
+
+![alt text](/docs/image.png)
+![alt text](/docs/image-1.png)
+![alt text](/docs/image-2.png)
+![alt text](/docs/image-3.png)
+![alt text](/docs/image-4.png)
 
 ### 回测报告
 - 📊 胜率和收益率统计
@@ -213,12 +218,6 @@ class CustomCondition(Condition):
 - 🔧 **代码贡献**：提交Pull Request
 - 📖 **文档完善**：改进文档和示例
 
-### 开发流程
-1. Fork 项目
-2. 创建功能分支 (`git checkout -b feature/AmazingFeature`)
-3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
-4. 推送到分支 (`git push origin feature/AmazingFeature`)
-5. 创建 Pull Request
 
 ## 📋 更新日志
 
@@ -264,9 +263,9 @@ the Free Software Foundation, either version 3 of the License, or
 
 ## 📞 联系我们
 
-- 📧 **邮箱**：contact@example.com
-- 🐛 **Issues**：[GitHub Issues](https://github.com/yourusername/stock-technical-indicators-platform/issues)
-- 💬 **讨论**：[GitHub Discussions](https://github.com/yourusername/stock-technical-indicators-platform/discussions)
+- 📧 **邮箱**：yl_zhangqiang@foxmail.com
+- 🐛 **Issues**：[GitHub Issues](https://github.com/cn-vhql/stock-technical-indicators-platform/issues)
+- 💬 **讨论**：[GitHub Discussions](https://github.com/cn-vhql/stock-technical-indicators-platform/discussions)
 
 ---
 

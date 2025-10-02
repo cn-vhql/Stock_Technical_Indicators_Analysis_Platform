@@ -17,11 +17,11 @@ __author__ = "Stock Analysis Platform Team"
 __email__ = "contact@example.com"
 __license__ = "GPL-3.0"
 
-from .data_fetcher import DataFetcher
-from .indicators import IndicatorCalculator, TechnicalSignalDetector
-from .conditions import ConditionBuilder, ConditionValidator
-from .backtest import BacktestAnalyzer, PerformanceAnalyzer
-from .utils import *
+from src.data_fetcher import DataFetcher
+from src.indicators import IndicatorCalculator, TechnicalSignalDetector
+from src.conditions import ConditionBuilder, ConditionValidator
+from src.backtest import BacktestAnalyzer, PerformanceAnalyzer
+from src.utils import *
 
 __all__ = [
     'DataFetcher',

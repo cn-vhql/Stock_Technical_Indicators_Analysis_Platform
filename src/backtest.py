@@ -9,7 +9,7 @@ from typing import Dict, Any, List, Optional, Tuple
 from datetime import datetime, timedelta
 import logging
 from dataclasses import dataclass
-from .conditions import Condition
+from src.conditions import Condition
 
 
 @dataclass

@@ -12,10 +12,10 @@ from plotly.subplots import make_subplots
 import logging
 
 # 导入自定义模块
-from data_fetcher import DataFetcher
-from indicators import IndicatorCalculator, TechnicalSignalDetector
-from conditions import ConditionBuilder, ConditionValidator
-from backtest import BacktestAnalyzer, PerformanceAnalyzer
+from src.data_fetcher import DataFetcher
+from src.indicators import IndicatorCalculator, TechnicalSignalDetector
+from src.conditions import ConditionBuilder, ConditionValidator
+from src.backtest import BacktestAnalyzer, PerformanceAnalyzer
 
 
 # 配置页面
